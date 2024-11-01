@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/Product Detail Page.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css" />
+    <title>Product Detail Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid bg-black text-white">
+        <div class="container text-center p-1 sign-up1">
+          Sign up and get 20% off to your first order.
+          <a href="" class="sign-up">Sign Up Now</a>
+        </div>
+      </div>
+      <!--MENU-->
+      <div class="container-fluid all-menu">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <!-- Logo mobile -->
+                <div class="col-8 col-md-2 d-flex align-items-center">
+                    <button class="navbar-toggler me-2 d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa-solid fa-bars p-2"></i>
+                    </button>
+                    <p class="logo m-0">SHOP.CO</p>
+                </div>
+    
+                <!-- Menu desktop -->
+                <div class="col-md-5 d-none d-md-flex justify-content-start menu">
+                    <nav class="navbar o navbar-expand-md">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Shop 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Shop 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">On Sale</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">New Arrivals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Brands</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+    
+                <!-- Biểu tượng và thanh tìm kiếm cho desktop và mobile -->
+                <div class="col-4 col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="search">
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <input class="form-control me-2 search-input d-none d-md-block" type="search" placeholder="Search for product..." aria-label="Search" />
+                    <div class="icon-header">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Navbar menu collapse cho màn hình nhỏ -->
+            <div class="collapse navbar-collapse d-md-none" id="navbarNav" >
+              
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                        <li><a class="dropdown-item" href="#">Shop 2</a></li>
+                        <li><a class="dropdown-item" href="#">Shop 3</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">On Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Brands</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      </div>
+    </header>
+    <!--MENU-->
+    <!--Banner-->
+    <div class="container line-bottom-menu">
+        <hr>
+    </div>
+    <div class="container next">
+        <p>Home <i class="fa-solid fa-chevron-right"></i></p>
+        <p>Shop <i class="fa-solid fa-chevron-right"></i></p>
+        <p>Men <i class="fa-solid fa-chevron-right"></i></p>
+        <p class="bold">T-shirts</p>
+    </div>
+    <div class="container main-item">
+      <div class="main-item-left">
+        <div class="container">
+          <div class="row all-img">
+            <!-- Cột chứa các ảnh nhỏ -->
+            <div class="col-2 little-img">
+              <div class="thumbnails">
+                <div class="thumbnail">
+                  <img src="img/image 2.png" alt="Thumbnail 1">
+                </div>
+                <div class="thumbnail">
+                  <img src="img/image 5.png" alt="Thumbnail 2">
+                </div>
+                <div class="thumbnail">
+                  <img src="img/image 6.png" alt="Thumbnail 3">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Cột chứa ảnh lớn -->
+            <div class="col-10 big-img">
+              <img src="img/image 1.png" alt="Main Image" class="main-image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-item-right">
+        <p>One Life Graphic T shirt</p>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt half-star"></i>
+          <span class="ms-2">4.5/5</span>
+        </div>
+        <div class="price">
+          <h5>$212</h5>
+          <h5 class="sale">$242</h5>
+          <a href="">-20%</a>
+        </div>
+        <span class="text">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</span>
+        <hr>
+        <p class="text-choice">Select Colors</p>
+        <div class="choice-color">
+          <div class="checkbox-circle color-1">
+            <input type="checkbox" id="circle" class="circle-checkbox">
+            <label for="circle" class="circle-label">
+              <i class="fas fa-check"></i>
+            </label>
+          </div>
+          <div class="checkbox-circle color-2">
+            <input type="checkbox" id="circle" class="circle-checkbox">
+            <label for="circle" class="circle-label">
+              <i class="fas fa-check"></i>
+            </label>
+          </div>
+          <div class="checkbox-circle color-3">
+            <input type="checkbox" id="circle" class="circle-checkbox">
+            <label for="circle" class="circle-label">
+              <i class="fas fa-check"></i>
+            </label>
+          </div>
+        </div>
+        <hr>
+        <p class="text-choice">Choose Size</p>
+        <div class="choice-size">
+          <div class="item-choice-size">
+            Small
+          </div>
+          <div class="item-choice-size">
+            Medium
+          </div>
+          <div class="item-choice-size">
+            Large
+          </div>
+          <div class="item-choice-size">
+            X-Large
+          </div>
+        </div>
+        <hr>
+        <div class="options">
+          <div class="item-up">
+            <i class="fa-solid fa-minus"></i>
+            <p>1</p>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="click-buy">
+            Add to Cart
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <!-- Tabs Navigation -->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+              <a class="nav-link" id="details-tab" data-bs-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="true">Product Details</a>
+          </li>
+          <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="reviews-tab" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Rating & Reviews</a>
+          </li>
+          <li class="nav-item" role="presentation">
+              <a class="nav-link" id="faqs-tab" data-bs-toggle="tab" href="#faqs" role="tab" aria-controls="faqs" aria-selected="false">FAQs</a>
+          </li>
+      </ul>
+  
+      <!-- Tab Content -->
+      <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
+              <h3>Chi tiết sản phẩm</h3>
+              <p>Nội dung về sản phẩm...</p>
+          </div>
+          <div class="tab-pane fade show active" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+              <div class="all-review">
+                <div class="button-review">
+                  <p>All Reviews</p>
+                  <span>(451)</span>
+                </div>
+                <div class="item-options">
+                  <div class="icon-review">
+                    <i class="fa-solid fa-sliders"></i>
+                  </div>
+                  <div class="latest">
+                    <p>Latest</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </div>
+                  <div class="write-review">
+                    Write a Review
+                  </div>
+                </div>
+             </div>
+             <div class="user-review">
+              <div class="container mt-5 ">
+                <div class="row d-flex align-items-stretch">
+                  <div class="col-md-6">
+                    <div class="card border p-3 comment">
+                      <div class="icon-comment">
+                        <div class="product-rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="icon-last-comment"> 
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                      </div>
+                        <p class="font-weight-bold">Sarah M. <i class="fa-solid fa-circle-check"></i></p>
+                        <p class="text-justify">
+                            "I'm blown away by the quality and style of the clothes I received
+                            from Shop.co. From casual wear to elegant dresses, every piece
+                            I've bought has exceeded my expectations."
+                        </p>
+                        <p>Posted on August 14, 2023</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card border p-3 comment">
+                      <div class="icon-comment">
+                        <div class="product-rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="icon-last-comment"> 
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                      </div>
+                        <p class="font-weight-bold">Alex K. <i class="fa-solid fa-circle-check"></i></p>
+                        <p class="text-justify">
+                          "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."
+                        </p>
+                        <p>Posted on August 15, 2023</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card border p-3 comment">
+                      <div class="icon-comment">
+                        <div class="product-rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="icon-last-comment"> 
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                      </div>
+                        <p class="font-weight-bold">Alex K. <i class="fa-solid fa-circle-check"></i></p>
+                        <p class="text-justify">
+                          "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."
+                        </p>
+                        <p>Posted on August 16, 2023</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card border p-3 comment">
+                      <div class="icon-comment">
+                        <div class="product-rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="icon-last-comment"> 
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                      </div>
+                        <p class="font-weight-bold">Alex K. <i class="fa-solid fa-circle-check"></i></p>
+                        <p class="text-justify">
+                          "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."
+                        </p>
+                        <p>Posted on August 17, 2023</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card border p-3 comment">
+                      <div class="icon-comment">
+                        <div class="product-rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="icon-last-comment"> 
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                      </div>
+                        <p class="font-weight-bold">Alex K. <i class="fa-solid fa-circle-check"></i></p>
+                        <p class="text-justify">
+                          "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."
+                        </p>
+                        <p>Posted on August 18, 2023</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card border p-3 comment">
+                        <div class="icon-comment">
+                        <div class="product-rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="icon-last-comment"> 
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                      </div>
+                        <p class="font-weight-bold">Alex K. <i class="fa-solid fa-circle-check"></i></p>
+                        <p class="text-justify">
+                          "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."
+                        </p>
+                        <p>Posted on August 19, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="tab-pane fade" id="faqs" role="tabpanel" aria-labelledby="faqs-tab">
+              <h3>Câu hỏi thường gặp</h3>
+              <p>Nội dung câu hỏi thường gặp...</p>
+          </div>
+      </div>
+  </div>
+
+    <!--NEW ARRIVALS-->
+    <div class="container">
+      <div class="row">
+        <h1 class="tille">YOU MIGHT ALSO LIKE</h1>
+        <div class="col-lg-3 col-md-6 col-6">
+          <div class="card">
+            <img src="img/image 7.png" alt="" class="imgcrop" />
+            <div class="card-body">
+              <p>Polo with Contrast Trims</p>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span class="ms-2">4.0/5</span>
+              </div>
+              <div class="price">
+                <h5>$212</h5>
+                <h5 class="sale">$242</h5>
+                <a href="">-20%</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6">
+            <div class="card">
+              <img src="img/image 8.png" alt="" class="imgcrop" />
+              <div class="card-body">
+                <p>Gradient Graphic T-shirt</p>
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt half-star"></i>
+                  <span class="ms-2">3.5/5</span>
+                </div>
+                <h5>$145</h5>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-3 col-md-6 col-6">
+          <div class="card">
+            <img src="img/image 9.png" alt="" class="imgcrop" />
+            <div class="card-body">
+              <p>Polo with Tipping Details</p>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt half-star"></i>
+                <span class="ms-2">4.5/5</span>
+              </div>
+              <h5>$180</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6">
+          <div class="card">
+            <img src="img/image 10.png" alt="" class="imgcrop" />
+            <div class="card-body">
+              <p>Black Striped T-shirt</p>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span class="ms-2">5.0/5</span>
+              </div>
+              <div class="price">
+                <h5>$120</h5>
+                <h5 class="sale">$150</h5>
+                <a href="">-30%</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="custom-button">View All</button>
+        </div>
+      </div>
+      <hr />
+
+      <!--OUR HAPPY CUSTOMERS-->
+     
+      <!--Email-Sale -->
+      <div class="container bg-black p-4 mt-5 banner-sale">
+        <div class="row">
+          <div class="col-md-8 text-white banner-s">
+            <h1>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="col-md-12 mt-2 subscribe">
+                <button class="btn btn-primary w-100">Subscribe to Newsletter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer chiếm toàn bộ màn hình -->
+    <footer>
+      <div class="container-fluid bg-light p-4 footer">
+        <div class="main-footer">
+        <div class="main-logo">
+          <div class="main-logo-in">
+            <h1>SHOP.CO</h1>
+            <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+            <div class="icon">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="row main-end">
+            <div class="col-lg-3 col-md-6 col-6">
+              <h4>COMPANY</h4>
+              <p>About</p>
+              <p>Features</p>
+              <p>Works</p>
+              <p>Career</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+              <h4>HELP</h4>
+              <p>Customer Support</p>
+              <p>Delivery Details</p>
+              <p>Terms & Conditions</p>
+              <p>Privacy Policy</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+              <h4>FAQ</h4>
+              <p>Account</p>
+              <p>Manage Deliveries</p>
+              <p>Orders</p>
+              <p>Payments</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+              <h4>RESOURCES</h4>
+              <p>Free eBooks</p>
+              <p>Development Tutorial</p>
+              <p>How to - Blog</p>
+              <p>Youtube Playlist</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <hr>
+        <div class="end">
+          <div class="end-left">
+            <p>Shop.co © 2000-2023, All Rights Reserved</p>
+          </div>
+          <div class="end-right">
+            <img src="img/Badge.png" alt="">
+            <img src="img/Badge (1).png" alt="">
+            <img src="img/Badge (2).png" alt="">
+            <img src="img/Badge (3).png" alt="">
+            <img src="img/Badge (4).png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,533 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Integral CF";
+  src: url(Fontspring-DEMO-integralcf-bold.otf);
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url(Satoshi-Black.otf);
+}
+.all-menu {
+  padding: 10px;
+}
+.sign-up1 {
+  font-size: 14px;
+}
+.sign-up {
+  color: white;
+}
+.logo {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+}
+.navbar-toggler i {
+  font-size: 20px;
+}
+.search {
+  margin-right: 0px;
+}
+.search i {
+  font-size: 20px;
+}
+.icon-header {
+  padding-left: 10px;
+}
+.icon-header i {
+  padding-right: 7px;
+  font-size: 20px;
+}
+.icon-header i:hover {
+  color: red;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* Banner */
+.banner {
+  width: 100%;
+  height: fit-content;
+  background-image: url("F:/BT HTML/HomePage Theme/img/Group 16.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner .text {
+  width: inherit;
+  padding-top: 103px;
+  padding-bottom: 116px;
+}
+
+.banner .text-content {
+  width: 100%;
+}
+
+.banner .text-content h1 {
+  width: 45%;
+  font-family: "Integral CF";
+  font-size: 64px;
+  color: black;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 32px;
+}
+
+.banner .text-content p {
+  width: 43%;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 32px;
+  line-height: 22px;
+}
+
+.banner .shop-btn {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 62px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+  margin-bottom: 48px;
+}
+
+.banner .shop-btn {
+  min-width: 210px;
+}
+.banner .stats {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  gap: 32px;
+}
+
+.banner .stat-item {
+  text-align: left;
+}
+
+.banner .stat-item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.banner .stat-item span {
+  font-size: var(--size-1rem);
+  line-height: 22px;
+  color: var(--matte-black-secondary-color);
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.banner .banner-small,
+.banner .stats-secondary {
+  display: none;
+}
+.shop-btn:hover {
+  background-color: aquamarine;
+  transition: 0.4s;
+  color: black;
+}
+/* Banner */
+.card {
+  border: none;
+  margin: 0 auto;
+  text-align: left;
+}
+.card .card-body {
+  margin-top: 5px;
+  padding: 0;
+  text-align: left;
+}
+.card .card-body p {
+  font-family: "Satoshi";
+  margin: 4px 0;
+  line-height: 1.4;
+}
+.card .card-body h5 {
+  font-family: "Satoshi";
+}
+.card .card-body .product-rating {
+  padding-bottom: 6px;
+}
+.card .card-body .product-rating i {
+  color: #ffc633;
+}
+.card .card-body .ms-2 {
+  color: black;
+  font-size: 14px;
+}
+.price {
+  display: flex;
+}
+.price .sale {
+  font-family: "Satoshi";
+  padding-left: 10px;
+  text-decoration: line-through;
+  color: #999999;
+}
+.price a {
+  margin-left: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: red;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  border-radius: 62px;
+  background-color: #ffebeb;
+}
+.img-fluid {
+  padding: 25px;
+}
+.custom-button {
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  padding: 10px 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  font-family: "Satoshi";
+}
+
+.custom-button:hover {
+  background-color: aquamarine;
+  transition: 0.4s;
+}
+.search {
+  display: none;
+}
+.search i:hover {
+  color: red;
+  transition: 0.3s;
+}
+.search-input {
+  margin-left: -100px;
+}
+.menu li {
+  padding-right: 10px;
+}
+.tille {
+  text-align: center;
+  font-family: "Integral CF";
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.custom-rounded {
+  border-radius: 40px;
+}
+.container-img {
+  padding-bottom: 40px;
+}
+.tille-1 {
+  text-align: center;
+  font-family: "Integral CF";
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.tille-star {
+  font-family: "Integral CF";
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.text-justify {
+  font-size: 16px;
+}
+.font-weight-bold {
+  font-family: "Satoshi";
+}
+.product-rating {
+  color: #ffc633;
+}
+.fa-circle-check {
+  color: #01ab31;
+}
+.comment {
+  border-radius: 20px;
+}
+.banner-sale {
+  border-radius: 20px;
+}
+.banner-sale .row .banner-s h1 {
+  font-family: "Integral CF";
+  font-size: 40px;
+}
+.banner-sale .row .banner-s {
+  width: 50%;
+  margin: 0px 40px;
+}
+.form-control {
+  border-radius: 62px;
+}
+.subscribe button {
+  border-radius: 62px;
+  background-color: white;
+  color: black;
+  font-family: "Satoshi";
+}
+.main-footer {
+  width: 100%;
+  padding-top: 40px;
+  margin: 0 auto;
+  display: flex;
+}
+.main-footer .main-logo {
+  width: 30%;
+  padding-left: 80px;
+}
+.main-footer .main-logo .main-logo-in {
+  width: 70%;
+}
+.main-footer .main-logo .main-logo-in h1 {
+  font-family: "Integral CF";
+}
+.main-footer .main-logo .main-logo-in p {
+  font-size: 14px;
+  padding-top: 20px;
+}
+.main-footer .main-logo .main-logo-in .icon i {
+  font-size: 17px;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.main-footer .main .main-end {
+  width: 100%;
+}
+.main-footer .main {
+  width: 70%;
+  display: flex;
+}
+.end {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.end .end-left {
+  width: 50%;
+  padding: 0 70px;
+}
+.end .end-left p {
+  font-size: 14px;
+}
+.end .end-right {
+  padding: 0 70px;
+  width: 50%;
+  text-align: end;
+}
+@media (max-width: 767px) {
+  .banner .stats {
+    display: block;
+  }
+  .sign-up1 {
+    font-size: 12px;
+  }
+  .all-menu {
+    margin-left: 0px;
+  }
+  .header-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-logo {
+    flex: 1;
+    text-align: center;
+  }
+  .header-menu {
+    flex: 2;
+    text-align: center;
+  }
+  .header-search {
+    flex: 2;
+    text-align: center;
+  }
+  .header-icons {
+    flex: 1;
+    text-align: center;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item {
+    flex: 1;
+  }
+  .container-menu {
+    padding-left: 25px;
+  }
+  .search {
+    display: block;
+  }
+  .search-input {
+    width: 0;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .search-icon {
+    display: block !important;
+  }
+  .tille-star {
+    font-size: 32px;
+  }
+  .banner-sale .row h1 {
+    font-size: 32px;
+  }
+  .banner-sale .row .banner-s {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 15px;
+    padding-bottom: 20px;
+  }
+  .main-footer {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .main-footer .main-logo {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .main-footer .main-logo .main-logo-in {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .main-footer .main {
+    width: 100%;
+  }
+  .container-menu .menu {
+    padding-left: 130px;
+  }
+  .end {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .end .end-left {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .end .end-right {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  /* Banner */
+  .banner {
+    min-height: 925px;
+    padding: 0;
+    background-color: #f2f0f1;
+    background-image: url("F:/BT HTML/HomePage Theme/img/banner-small.png");
+    background-size: cover;
+  }
+
+  .banner .text {
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .banner .text-content {
+    width: 100%;
+    text-align: left;
+  }
+
+  .banner .text-content h1 {
+    width: 315px;
+    font-size: 36px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+
+  .banner .text-content p {
+    width: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 24px;
+  }
+
+  .shop-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .banner .stat-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+  }
+
+  .banner .stat-item p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .banner .stats {
+    display: none;
+  }
+
+  .banner .stats-secondary {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner .banner-small {
+    display: block;
+    width: inherit;
+    height: fit-content;
+    object-fit: contain;
+    background-color: var(--background-secondary-color);
+  }
+
+  .banner .banner-small img {
+    width: inherit;
+    min-height: 448px;
+    object-fit: cover;
+  }
+
+  .banner .shop-btn {
+    margin-bottom: 20px;
+  }
+  /* Banner */
+}
+@media (max-width: 820px) {
+  .all-menu .logo {
+    font-size: 25px;
+  }
+  .navbar-toggler {
+    display: block !important;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item {
+    flex: 1;
+  }
+  .navbar {
+    display: none;
+  }
+}
